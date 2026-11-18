@@ -17,7 +17,6 @@
 		<folder external="CustomCode/PAL" disc="/CustomCode" create="true"/>
 		<folder external="LayoutData" disc="/LayoutData" create="true"/>
 		<folder external="LocalizeData" disc="/LocalizeData" create="true"/>
-		<folder external="LocalizeData/EuEnglish" disc="/LocalizeData/EuDutch" create="true"/>
 		<folder external="ObjectData" disc="/ObjectData" create="true"/>
 		<folder external="ParticleData" disc="/ParticleData" create="true"/>
 		<folder external="StageData" disc="/StageData" create="true"/>
@@ -542,7 +541,6 @@
 <!-- Make MR::decPlayerLeft not affect lives -->
 <!-- By VTXG (USA, PAL, JPN, KOR, TWN) -->
 <memory offset="0x800238F8" value="60000000"/>
-
 <!-- Disables PlayerMissLeft Layout -->
 <!-- By VTXG (USA, PAL, JPN) -->
 <memory offset="0x80489280" value="4E800020"/>
@@ -551,7 +549,6 @@
 <memory offset="0x804893F0" value="4E800020"/>
 <memory offset="0x804894F0" value="4E800020"/>
 <memory offset="0x80489580" value="4E800020"/>
-
 <!-- Force UsEnglish -->
 <memory offset="0x804B8DE8" value="38600021" /> <!-- E, J, P -->
 <memory offset="0x8064E220" original="52415243" valuefile="LayoutData/ErrorMessageArchive.arc" /> <!-- E, J, P -->
